@@ -5,9 +5,7 @@ module Hchat
     attr_reader :tcp_server
 
     def initialize(port)
-      @tcp_server = TCPServer.new(
-        port
-      )
+      @tcp_server = TCPServer.new(port)
     end
 
     def start

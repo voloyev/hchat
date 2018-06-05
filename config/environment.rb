@@ -2,9 +2,13 @@ require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
 require_relative '../lib/hchat'
+require_relative '../apps/room/application'
+require_relative '../apps/user/application'
 require_relative '../apps/web/application'
 
 Hanami.configure do
+  mount Room::Application, at: '/room'
+  mount User::Application, at: '/user'
   mount Web::Application, at: '/'
 
   model do

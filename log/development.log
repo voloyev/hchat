@@ -88,3 +88,9 @@
 [hchat] [INFO] [2018-05-25 13:34:39 +0300] HTTP/1.1 GET 500 127.0.0.1 / 59196 {"port"=>"2301", "host"=>"localhost"} 0.014228
 [hchat] [INFO] [2018-05-25 13:34:40 +0300] HTTP/1.1 POST 200 127.0.0.1 /__better_errors/46314d1a77bc87a0/variables 216 {} 0.00197
 [hchat] [INFO] [2018-05-25 13:35:17 +0300] HTTP/1.1 GET 500 127.0.0.1 / 59912 {"port"=>"2301", "host"=>"localhost"} 58.819345
+[hchat] [INFO] [2018-06-05 14:44:02 +0300] HTTP/1.1 GET 500 ::1 / 59191 {} 0.018709
+[hchat] [INFO] [2018-06-05 14:44:03 +0300] HTTP/1.1 POST 200 ::1 /__better_errors/0717bbc589b0696a/variables 216 {} 0.000591
+[hchat] [INFO] [2018-06-05 14:44:03 +0300] HTTP/1.1 GET 404 ::1 /favicon.ico 1386 {} 0.007685
+[hchat] [INFO] [2018-06-05 14:44:03 +0300] HTTP/1.1 GET 404 ::1 /favicon.ico 1386 {} 0.005538
+[hchat] [INFO] [2018-06-05 14:46:58 +0300] HTTP/1.1 GET 500 ::1 / 59192 {"name"=>"bob"} 0.01447
+[hchat] [INFO] [2018-06-05 14:46:59 +0300] HTTP/1.1 POST 200 ::1 /__better_errors/f4acf07d9a1bdb3d/variables 216 {} 0.00077
